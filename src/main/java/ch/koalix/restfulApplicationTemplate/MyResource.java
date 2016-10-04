@@ -1,4 +1,4 @@
-package ch.koalix.koalix-000-2;
+package ch.koalix.restfulApplicationTemplate;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
