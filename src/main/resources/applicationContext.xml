@@ -14,9 +14,9 @@
     <mvc:annotation-driven />
 
     <context:annotation-config />
-    <context:component-scan base-package="ch.koalix.restfulApplicationTemplate" />
+    <context:component-scan base-package="ch.koalix.jointCommissionAccounting_rest" />
 
-    <jpa:repositories base-package="ch.koalix.restfulApplicationTemplate.repository" />
+    <jpa:repositories base-package="ch.koalix.jointCommissionAccounting_rest.repository" />
 
     <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
 

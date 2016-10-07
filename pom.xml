@@ -3,11 +3,11 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ch.koalix.koalix-000-2</groupId>
-    <artifactId>restful_application_template</artifactId>
+    <groupId>ch.koalix.koalix-001-1</groupId>
+    <artifactId>jointCommissionAccounting_rest</artifactId>
     <packaging>war</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <name>restful_application_template</name>
+    <name>jointCommissionAccounting_rest</name>
 
     <properties>
         <jersey.version>2.4.1</jersey.version>
@@ -16,7 +16,7 @@
     </properties>
 
     <build>
-        <finalName>restful_application_template</finalName>
+        <finalName>jointCommissionAccounting_rest</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

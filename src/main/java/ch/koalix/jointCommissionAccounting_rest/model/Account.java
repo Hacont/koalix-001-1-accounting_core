@@ -1,4 +1,4 @@
-package ch.koalix.restfulApplicationTemplate.model;
+package ch.koalix.jointCommissionAccounting_rest.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.stereotype.Component;

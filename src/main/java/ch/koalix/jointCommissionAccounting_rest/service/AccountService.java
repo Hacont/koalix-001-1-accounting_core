@@ -1,6 +1,6 @@
-package ch.koalix.restfulApplicationTemplate.service;
+package ch.koalix.jointCommissionAccounting_rest.service;
 
-import ch.koalix.restfulApplicationTemplate.model.Account;
+import ch.koalix.jointCommissionAccounting_rest.model.Account;
 
 import java.util.ArrayList;
 

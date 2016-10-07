@@ -1,6 +1,6 @@
-package ch.koalix.restfulApplicationTemplate.repository;
+package ch.koalix.jointCommissionAccounting_rest.repository;
 
-import ch.koalix.restfulApplicationTemplate.model.Account;
+import ch.koalix.jointCommissionAccounting_rest.model.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

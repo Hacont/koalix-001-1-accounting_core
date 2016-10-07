@@ -1,7 +1,7 @@
-package ch.koalix.restfulApplicationTemplate.resource;
+package ch.koalix.jointCommissionAccounting_rest.resource;
 
-import ch.koalix.restfulApplicationTemplate.model.Account;
-import ch.koalix.restfulApplicationTemplate.service.AccountService;
+import ch.koalix.jointCommissionAccounting_rest.model.Account;
+import ch.koalix.jointCommissionAccounting_rest.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
