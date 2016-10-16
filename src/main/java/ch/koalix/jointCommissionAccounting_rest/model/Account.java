@@ -1,29 +1,27 @@
 package ch.koalix.jointCommissionAccounting_rest.model;
 
-import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.stereotype.Component;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 
 @Component
-@XmlRootElement(name="account")
 @Entity
-@Table(name="account")
+@Table(name="ACCOUNT")
 public class Account {
 
     @Id
+    @Column(name = "id")
     @GeneratedValue
     private Integer id;
 
-    @NotEmpty
+    @Column(name = "account_number")
+    @NotNull
     private Integer accountNumber;
 
-    @NotEmpty
+    @Column(name = "account_name")
+    @NotNull
     private String accountName;
 
     public Integer getId() {

@@ -28,10 +28,17 @@
                 <property name="showSql" value="true" />
             </bean>
         </property>
+
+        <!-- Hibernate configuration properties.
+            Find more on https://docs.jboss.org/hibernate/orm/3.3/reference/en-US/html/session-configuration.html-->
         <property name="jpaPropertyMap">
             <map>
                 <entry key="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
-                <entry key="hibernate.hbm2ddl.auto" value="validate" />
+                <!-- Automatically creates schema DDL to the database when the SessionFactory is created. -->
+                <entry key="hibernate.hbm2ddl.auto" value="verify"/>
+                <!-- Write all SQL statements to console. -->
+                <entry key="hibernate.show_sql" value="true" />
+                <!-- Pretty print the SQL in the log and console. -->
                 <entry key="hibernate.format_sql" value="true" />
             </map>
         </property>
