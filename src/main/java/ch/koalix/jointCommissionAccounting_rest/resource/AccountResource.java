@@ -33,8 +33,8 @@ public class AccountResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public void saveAccount(@Context HttpServletResponse response, Account account) {
-        accountService.saveAccount(account);
+    public Account saveAccount(@Context HttpServletResponse response, Account account) {
+        return accountService.saveAccount(account);
     }
 
     @PUT

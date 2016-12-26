@@ -47,8 +47,9 @@ public class AccountDao {
      * Stores a new account to database.
      * @param account the account to persist
      */
-    public void saveAccount(Account account) {
+    public Account saveAccount(Account account) {
         entityManager.persist(account);
+        return account;
     }
 
     /**

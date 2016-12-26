@@ -21,8 +21,8 @@ public class AccountServiceImpl implements AccountService {
         return accountDao.selectAll();
     }
 
-    public void saveAccount(Account account) {
-        accountDao.saveAccount(account);
+    public Account saveAccount(Account account) {
+        return accountDao.saveAccount(account);
     }
 
     public Account updateAccount(Account account, Integer accountId) {
